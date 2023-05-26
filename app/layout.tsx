@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './Header'
-
+import SwitchMode from './components/SwitchMode'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -15,10 +15,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='dark'>
+    <html lang="en">
       <body className={inter.className}>
         <Header />
         {children}
+        <SwitchMode />
       </body>
     </html>
   )
