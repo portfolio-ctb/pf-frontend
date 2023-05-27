@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='lg:px-24 px-12 flex mx-auto items-center py-2 h-16 backdrop-blur-2xl border-b border-gray-900 sticky top-0'>
+    <div className='lg:px-24 px-12 flex mx-auto items-center py-2 h-16 backdrop-blur-2xl border-b border-gray-200 dark:border-neutral-800 sticky top-0'>
       <h1 className='font-bold'>Porfolio</h1>
       <div className='grow'>
         <div className='flex items-center justify-center gap-4'>
