@@ -1,3 +1,5 @@
 export enum Mode {
-  DARK='dark', LIGHT='light', SYSTEM='system'
+  DARK = 'dark',
+  LIGHT = 'light',
+  SYSTEM = 'system',
 }
